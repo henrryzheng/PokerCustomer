@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\workspace_haiqing\workspace_0214\PokerCustomer\app\libs\rtspcamera.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="6c9d6cd66072ae3fd3eb2d71d52eb7abceed305e">
+        <dex dex="E:\workspace_haiqing\workspace_0214\PokerCustomer\app\build\intermediates\pre-dexed\debug\rtspcamera-2d6df65afe1d6ce735e1c89a0ae6c12887718618.jar" />
+    </item>
+
+</items>

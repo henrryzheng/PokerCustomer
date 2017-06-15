@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gameTypes">
+        <item>1.金花（金花>顺子）</item>
+        <item>2.金花（顺子>金花） </item>
+    </string-array>
+
+    <string-array name="peopleNums">
+        <item>程序自动识别</item>
+        <item>2人</item>
+        <item>3人</item>
+        <item>4人</item>
+        <item>5人</item>
+        <item>6人</item>
+        <item>7人</item>
+        <item>8人</item>
+        <item>9人</item>
+        <item>10人</item>
+        <item>11人</item>
+        <item>12人</item>
+        <item>13人</item>
+        <item>14人</item>
+        <item>15人</item>
+        <item>16人</item>
+        <item>17人</item>
+        <item>18人</item>
+    </string-array>
+
+    <string-array name="broadcastTypes">
+        <item>1.报单牌（花色字符）</item>
+        <item>2.报单牌（字符） </item>
+        <item>3.报最大</item>
+        <item>4.报最大（牌的类型）</item>
+        <item>5.报第一，第二</item>
+        <item>6.报各家大小</item>
+    </string-array>
+
+    <string-array name="playTypes">
+        <item>1.手机播放</item>
+        <item>2.镜头播放</item>
+        <item>3.手机和镜头都播放</item>
+        <item>4.手机和镜头都不播放</item>
+    </string-array>
+
+    <string-array name="evs">
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>+0</item>
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+    </string-array>
+</resources>

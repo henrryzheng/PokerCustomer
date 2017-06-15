@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rtspcamera">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/rtspcamera.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

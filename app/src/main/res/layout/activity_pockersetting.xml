@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip">
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemTitle_gameType"
+            android:textSize="20dip"
+            android:text="游戏选择："
+            />
+
+        <Spinner
+            android:id="@+id/spinner_gameType"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:entries="@array/gameTypes"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip">
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemTitle_peopleNum"
+            android:textSize="20dip"
+            android:text="人数选择："
+            />
+
+        <Spinner
+            android:id="@+id/spinner_peopleNum"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:entries="@array/peopleNums"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip">
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemTitle_broadcastType"
+            android:textSize="20dip"
+            android:text="报牌方式："
+            />
+
+        <Spinner
+            android:id="@+id/spinner_broadcastType"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:entries="@array/broadcastTypes"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="60dip">
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemTitle_playType"
+        android:textSize="20dip"
+        android:text="播放方式："
+        />
+
+    <Spinner
+        android:id="@+id/spinner_playType"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:entries="@array/playTypes"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemTitle_ev"
+            android:textSize="20dip"
+            android:text="曝光补偿："
+            />
+
+        <Spinner
+            android:id="@+id/spinner_ev"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:entries="@array/evs"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_marginTop="100dp">
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:text="开始"
+            android:layout_marginLeft="40dp"/>
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:text="退出"
+            android:layout_marginLeft="90dp"/>
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+
+        <Button
+            android:id="@+id/server_btn1"
+            android:layout_width="200dip"
+            android:layout_height="60dip"
+            android:singleLine="true"
+            android:textSize="40sp"
+            android:text="close_wifi"/>
+
+        <Button
+            android:id="@+id/server_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="60dip"
+            android:singleLine="true"
+            android:textSize="40sp"
+            android:text="open_wifi"/>
+
+    </LinearLayout> !-->
+
+</LinearLayout>
